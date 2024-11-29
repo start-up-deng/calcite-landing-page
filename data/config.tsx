@@ -42,7 +42,7 @@ const siteConfig = {
     copyright: (
       <>
         Built by{' '}
-        <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
+        <Link href="https://xxx.xx/xxx">MatrixStudio</Link>
       </>
     ),
     links: [
@@ -51,11 +51,11 @@ const siteConfig = {
         label: 'Contact',
       },
       {
-        href: 'https://twitter.com/saas_js',
+        href: 'https://twitter.com/xxxxxx',
         label: <FaTwitter size="14" />,
       },
       {
-        href: 'https://github.com/saas-js/saas-ui',
+        href: 'https://github.com/saas-js/xxxxxxxxxxx',
         label: <FaGithub size="14" />,
       },
     ],

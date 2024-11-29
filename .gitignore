@@ -118,6 +118,4 @@ tmp/
 temp/
 
 # Remix build output
-.build/node_modules
-
-.next
+.build/
