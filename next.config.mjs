@@ -5,7 +5,8 @@ const nextConfig = {
     unoptimized: true,
   },
   reactStrictMode: true,
-  webpack(config) {
+  basePath: '/calcite-landing-page',
+  assetPrefix: '/calcite-landing-page/',  webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
       use: [
