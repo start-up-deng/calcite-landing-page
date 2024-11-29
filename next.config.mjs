@@ -1,12 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/calcite-landing-page', // 添加你的仓库名
+  assetPrefix: '/calcite-landing-page/', // 添加你的仓库名
+  trailingSlash: true,  // 添加这行
+
   images: {
     unoptimized: true,
   },
   reactStrictMode: true,
-  basePath: '/calcite-landing-page',
-  assetPrefix: '/calcite-landing-page/',  webpack(config) {
+  
+  
+  webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
       use: [
