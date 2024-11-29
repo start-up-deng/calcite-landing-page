@@ -114,7 +114,7 @@ export function MobileNavContent(props: MobileNavContentProps) {
                   <CloseButton ref={closeBtnRef} onClick={onClose} />
                 </HStack>
               </Flex>
-              <Stack alignItems="stretch" spacing="0">
+              {/* <Stack alignItems="stretch" spacing="0">
                 {siteConfig.header.links.map(
                   ({ href, id, label, ...props }, i) => {
                     return (
@@ -128,7 +128,7 @@ export function MobileNavContent(props: MobileNavContentProps) {
                     )
                   },
                 )}
-              </Stack>
+              </Stack> */}
             </Box>
           </Flex>
         </RemoveScroll>

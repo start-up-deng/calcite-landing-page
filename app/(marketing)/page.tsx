@@ -59,10 +59,10 @@ import faq from '#data/faq'
 import pricing from '#data/pricing'
 import testimonials from '#data/testimonials'
 
-export const meta: Metadata = {
-  title: '異種データベース連携ソリューション',
-  description: '異なるデータベース間での連携クエリを可能にするDB製品',
-}
+// export const meta: Metadata = {
+//   title: '異種データベース連携ソリューション',
+//   description: '異なるデータベース間での連携クエリを可能にするDB製品',
+// }
 
 const Home: NextPage = () => {
   return (
@@ -110,7 +110,7 @@ const HeroSection: React.FC = () => {
                 <NextjsLogo height="28px" width="20px" /> <ChakraLogo height="20px" />
               </HStack>
 
-              <ButtonGroup spacing={4} alignItems="center">
+              {/* <ButtonGroup spacing={4} alignItems="center">
                 <ButtonLink colorScheme="primary" size="lg" href="/signup">
                   サインアップ
                 </ButtonLink>
@@ -133,7 +133,7 @@ const HeroSection: React.FC = () => {
                 >
                   デモを見る
                 </ButtonLink>
-              </ButtonGroup>
+              </ButtonGroup> */}
             </FallInPlace>
           </Hero>
           <Box
